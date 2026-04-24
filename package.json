@@ -1,0 +1,16 @@
+{
+  "name": "crm-logistics",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "backend",
+    "bot",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace backend",
+    "dev:bot": "npm run dev --workspace bot",
+    "build": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces"
+  }
+}
